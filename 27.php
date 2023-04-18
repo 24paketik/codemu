@@ -16,12 +16,13 @@
 			return $course >= 1 and $course <= 5;
 		}
 
-		private function transferToNextCourse($course)
+		public function transferToNextCourse($course)
 		{
-			return $course = $course+1;
+			return $this->course = $this->course + 1;
 		}
 	}
 	$user = new Student;
 	$user->setCourse(2);
+	$user->transferToNextCourse();
 	echo $user->course;
 ?>
