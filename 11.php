@@ -6,7 +6,7 @@
 		public $age;
 
 		public function getSalary(){
-			return $this->salary;
+			return $this-> salary;
 		}
 	}
 ?>

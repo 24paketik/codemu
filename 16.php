@@ -6,13 +6,13 @@
 
 		public function setAge($age)
 		{
-			$this->age = $age
+			$this->age = $age;
 		}
 	}
 	$user = new User;
 	$user->name = 'john';
 	$user->age = 25;
-	$user->setAge(26);
+	$user->setAge(30);
 	
 	echo $user->age;
 ?>
