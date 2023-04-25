@@ -18,7 +18,13 @@
 
 		public function transferToNextCourse()
 		{
-			return $this->course = $this->course + 1;
+			$this->course = $this->course + 1;
+			if ($this->isCourseCorrect($course)){
+				return $this->course;
+			}
+			else {
+				return $this->course = 5;
+			}
 		}
 	}
 	$user = new Student;
