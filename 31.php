@@ -11,4 +11,5 @@
     }
 
 	}
+	$employee1 = new Employee("eric", 25, 1000);
 ?>

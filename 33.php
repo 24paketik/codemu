@@ -11,4 +11,8 @@
     }
 
 	}
+	$eric = new Employee("eric", 25, 1000);
+	$kyle = new Employee("kyle", 30, 2000);
+
+	echo $eric->salary + $kyle->salary;
 ?>
